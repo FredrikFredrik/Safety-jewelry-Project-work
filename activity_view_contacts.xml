@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:foregroundTint="#000000"
+    tools:context=".ViewContacts">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="76dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:background="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:foregroundTint="#000000"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber1"
+        app:srcCompat="@drawable/ic_baseline_person_24"
+        app:tint="#000000"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="76dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="96dp"
+        android:background="#040303"
+        android:backgroundTint="#FFFFFF"
+        android:foregroundTint="#000000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_person_24"
+        app:tint="#000000"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/addPhoneNumber"
+        android:layout_width="226dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType=""
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="111dp"
+        android:onClick="contactButtonClick"
+        android:text="Save"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/phoneNumber1"
+        android:layout_width="226dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#000000"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addPhoneNumber"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/phoneNumber2"
+        android:layout_width="226dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#000000"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber1"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="76dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="64dp"
+        android:adjustViewBounds="false"
+        android:background="#090909"
+        android:backgroundTint="#FFFFFF"
+        android:foregroundTint="#070707"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/addPhoneNumber"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_person_24"
+        app:tint="#000000"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="116dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/allerta"
+        android:text="Contacts"
+        android:textColor="@color/purple_500"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
