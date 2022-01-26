@@ -1,0 +1,26 @@
+#include <SoftwareSerial.h> 
+
+ int inPin = 7; //Input pin (for pushbutton)  
+ int val = 0; // for reading the pin 
+ int inRX = 0; 
+ int utTX = 1;  
+ SoftwareSerial BT(0,1); 
+ 
+ void setup() {
+  pinMode(inPin, INPUT); //Declare Pushbotton as imput 
+   BT.begin(9600); 
+   pinMode( 0, INPUT); 
+   pinMode (1, OUTPUT);   
+}
+
+void loop()  {
+   val=digitalRead(inPin); // Read input value 
+   if (val == LOW) { //Check if the input is LOW(button is psuhed) 
+      BT.print("1");   
+      delay (1000);
+  }      else  { 
+      delay(1000); 
+      
+  } 
+  }
+  
