@@ -1,7 +1,7 @@
 # Safety-jewelry-Project-work
 
-![FinishedProduct1](https://user-images.githubusercontent.com/63136833/151146737-95cd4824-2182-419e-94dd-118d103e88a5.jpg) 
-![FinishedProduct2](https://user-images.githubusercontent.com/63136833/151147123-46c5c9df-7259-44c4-849e-f3367fe7f3d9.jpg)
+<img width="302" alt="image" src="https://user-images.githubusercontent.com/63136833/151147948-b2f1882b-8218-4385-b82c-ec0290f8fa84.png">
+
 We have created an app that connects to a necklace by bluetooth.   
 the necklace has a button which, when pressed, sends a signal to an app installed 
 on the user's phone. The app will then interpret the signal and send a message to 
