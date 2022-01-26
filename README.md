@@ -11,7 +11,7 @@ changed. For test purposes we made a message in swedish which roughly translates
 
 Here are three pictures showing the user interface of the app:
 
-BILD
+<img width="176" alt="image" src="https://user-images.githubusercontent.com/63136833/151147472-d507a2be-4915-4003-b61b-7175a2b630d9.png">
 
 We started our project by developing a circuit able to send a message to our app 
 by using an Arduino Uno and a separate bluetooth module, the HC-05. Once the connection was
