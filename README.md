@@ -22,8 +22,7 @@ of the arduino uno. Here you can see the PCB which uses the ATmega328p microcont
 
 <img width="341" alt="image" src="https://user-images.githubusercontent.com/63136833/151148238-6af7de17-aebb-43ab-993d-e8a7f652dd2c.png">
 
-The PCB measures 3.5 by 2 centimeters and connected to it is the  
-the HC-05 along with a battery and a charging module, these components make the final height of the 
-hardware about 2 centimeters which is a bit thicker than we would like but still small enough to fit 
-in a necklace.
+The PCB measures 3.5 by 2 centimeters and connected to it is the HC-05 along with a battery and a charging module, 
+these components make the final height of the hardware about 2 centimeters which is a bit thicker than we would like,
+but still small enough to fit in a necklace.
 
