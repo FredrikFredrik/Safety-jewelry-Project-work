@@ -11,7 +11,7 @@ changed. For test purposes we made a message in swedish which roughly translates
 
 Here are three pictures showing the user interface of the app:
 
-<img width="176" alt="image" src="https://user-images.githubusercontent.com/63136833/151147472-d507a2be-4915-4003-b61b-7175a2b630d9.png">
+<img width="361" alt="image" src="https://user-images.githubusercontent.com/63136833/151148399-cddef943-b863-4ecd-ab48-84be8f14870d.png">
 
 We started our project by developing a circuit able to send a message to our app 
 by using an Arduino Uno and a separate bluetooth module, the HC-05. Once the connection was
@@ -20,7 +20,7 @@ scaling down the hardware to better fit it into a piece of jewelry. We looked at
 the Arduino uno and made a PCB design that incorporates our circuit and the integral parts
 of the arduino uno. Here you can see the PCB which uses the ATmega328p microcontroller:
 
-BILD
+<img width="341" alt="image" src="https://user-images.githubusercontent.com/63136833/151148238-6af7de17-aebb-43ab-993d-e8a7f652dd2c.png">
 
 The PCB measures 3.5 by 2 centimeters and connected to it is the  
 the HC-05 along with a battery and a charging module, these components make the final height of the 
