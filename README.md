@@ -1,6 +1,6 @@
 # Safety-jewelry-Project-work
 
-The creators of this project are: Joanna Kubik, Fredrik Jonsson and Sara Weman. During fall 2021 we did this project work as a part of our degree programme at KTH Royal Institute of Technology where we chose the elective course, Electronic Design - Project course,
+The creators of this project are: Joanna Kubik, Fredrik Jonsson and Sara Weman. During fall 2021 we did this project work as a part of our degree programme at KTH Royal Institute of Technology where we chose the elective course, Electronic Design - Project course.
 
 <img width="370" alt="image" src="https://user-images.githubusercontent.com/63136833/151148638-f640c898-6e3d-403b-8d06-481aab6b4e32.png">
 
