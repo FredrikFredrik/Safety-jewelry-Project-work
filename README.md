@@ -1,5 +1,6 @@
 # Safety-jewelry-Project-work
 
+BILD finished
 
 We have created an app that connects to a necklace by bluetooth.   
 the necklace has a button which, when pressed, sends a signal to an app installed 
@@ -25,8 +26,4 @@ The PCB measures 3.5 by 2 centimeters and connected to it is the
 the HC-05 along with a battery and a charging module, these components make the final height of the 
 hardware about 2 centimeters which is a bit thicker than we would like but still small enough to fit 
 in a necklace.
-
-Here are some images of the finished product:
-
-BILD
 
